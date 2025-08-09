@@ -1,0 +1,39 @@
+[includeIf "gitdir:~/Desktop/project/**"]
+	path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/Projects/**"]
+	path = ~/.gitconfig.work
+
+[url "ssh://git.linecorp.com/"]
+	insteadOf = https://git.linecorp.com/
+[alias]
+	lg = log --oneline --graph --decorate
+
+[url "git@git-dev.linecorp.com:"]
+  insteadOf = https://git-dev.linecorp.com/
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[url "https://"]
+	insteadOf = git://
+[url "git@git.linecorp.com:"]
+	insteadof = https://git.linecorp.com/
+[hub]
+	host = git.linecorp.com
+	host = git.linecorp.com
+	host = git.linecorp.com
+[core]
+	excludesfile = /Users/charnsak/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Users/charnsak/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Dangmanee Tose
+	email = charnsak.da@linecorp.com
+[commit]
+	template = /Users/charnsak/.stCommitMsg

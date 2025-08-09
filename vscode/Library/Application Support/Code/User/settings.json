@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.fontFamily": "Meslolgs nf",
+    "terminal.integrated.fontSize": 11,
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.editor.limit.excludeDirty": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.enablePreview": false,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.maxMemoryForLargeFilesMB": 20480,
+    "go.goroot": "/Users/charnsak/.gvm/gos/go1.23",
+    "go.gopath": "/Users/charnsak/.gvm/pkgsets/go1.23/global",
+    "[python]": {},
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "files.associations": {
+        "*.ts": "typescript"
+    },
+    "window.zoomLevel": 1,
+    "hediet.vscode-drawio.resizeImages": null,
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "github.copilot.advanced": {
+        "publicCodeBlock": false,
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "scala": false
+    },
+    "gitlens.remotes": [
+        {
+            "name": "LINE",
+            "domain": "git.linecorp.com",
+            "type": "GitHub"
+        }
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "gitlens.graph.minimap.enabled": false,
+    "tailwind-fold.autoFold": false,
+    "go.toolsManagement.autoUpdate": true,
+    "hediet.vscode-drawio.theme": "min",
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.indentSize": "tabSize",
+    "editor.inlineSuggest.edits.showCollapsed": true,
+}
