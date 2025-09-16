@@ -187,6 +187,7 @@ export GOPATH=$HOME/go
 export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
 export PATH="/Users/charnsak/.gvm/pkgsets/go1.20/global/bin/mockgen/$PATH"
 export PATH="$PATH:/Users/charnsak/Library/Application Support/Coursier/bin"
+export PATH="$PATH:~/.bun/bin"
 export GOPRIVATE=git.linecorp.com,git-dev.linecorp.com
 export CARGOPATH=$HOME/.cargo/bin
 export PATH="$CARGOPATH:$PATH"
@@ -194,3 +195,9 @@ source virtualenvwrapper.sh
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 # source ~/verda.sh
 . "/Users/charnsak/.deno/env"
+# bun completions
+[ -s "/Users/charnsak/.bun/_bun" ] && source "/Users/charnsak/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

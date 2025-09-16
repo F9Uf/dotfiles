@@ -36,4 +36,7 @@ zsh < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binsc
 # install python3
 brew install python
 
+# install bun
+curl -fsSL https://bun.sh/install | bash
+
 echo ">>> Setup complete!"
